@@ -83,7 +83,12 @@ body {
     
 }
 .conteudo-principal-escrito-botao:hover{
-    background-color: #e4c5a2af;
+    background-color: #e7cdb0af;
+}
+
+.conteudo-principal-escrito-botao:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .conteudo-principal-img{
